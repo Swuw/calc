@@ -1,0 +1,115 @@
+.body {
+    font-family: 'Castoro', serif;
+}
+.container {
+    width: 380px;
+    height: 300px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.display {
+    width: 320px;
+    height: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.txt {
+    width: 300px;
+    height: 35px;
+    font-size: 22px;
+    margin-right: 10px;
+    padding-top: 10px;
+    text-align: right;
+    color: rgb(4, 24, 65);
+    font-family: 'Castoro', serif;
+    border: 0px solid;
+}
+.numberblock {
+    width: 200px;
+    height: 150px;
+    margin-left: 24px;
+    float: left;
+}
+.bbotton {
+    width: 188px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 0px;
+    font-family: 'Castoro', serif;
+}
+.number {
+    width: 60px;
+    height: 40px;
+    font-family: 'Castoro', serif;
+}
+.numberrow {
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+}
+.actionblock {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 2px;
+}
+.name {
+    color: blanchedalmond;
+    font-size: 7px;
+    
+}
+.actionrow {
+    width: 140px;
+    height: 40px;
+    margin-top: 5px;
+}
+.actionrowe{
+    width: 140px;
+    height: 85px;
+    margin-top: 5px;
+} 
+.abbotton{
+    width: 60px;
+    height: 85px;
+    font-family: 'Castoro', serif;
+}
+.m {
+    font-size: 12px;
+    font-family: 'Castoro', serif;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 3px ;
+}
+.mem {
+    font-size: 12px;
+    font-family: 'Castoro', serif;
+    width: 125px;
+    height: 15px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 20px ;
+}
+.symb {
+    font-size: 12px;
+    font-family: 'Castoro', serif;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 275px;
+}
+
+.value {
+    font-size: 12px;
+    font-family: 'Castoro', serif;
+    width: 150px;
+    height: 15px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 125px;
+}
+
