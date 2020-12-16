@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../calc/css/style.css">
+    <title>Calc</title>
+</head>
+<body>
+
+<div class="container">
+
+<div class="calc">
+    <hr>
+    <div class="display">
+        <div class="txt" >0</div>
+        <div class="m">m: </div>
+        <div class="mem"> </div>
+        <div class="symb" > </div>
+        <div class="value"> </div>
+    </div>
+    <hr>
+    <div class="numberblock">
+        <div class="numberrow">
+            <button class="number one" onclick="push('1')">1</button>
+            <button class="number two" onclick="push('2')">2</button>
+            <button class="number three" onclick="push('3')">3</button>
+        </div>
+        <div class="numberrow">
+            <button class="number four" onclick="push('4')">4</button>
+            <button class="number five" onclick="push('5')">5</button>
+            <button class="number six" onclick="push('6')">6</button>
+        </div>
+        <div class="numberrow">
+        <button class="number seven" onclick="push('7')">7</button>
+        <button class="number eight" onclick="push('8')">8</button>
+        <button class="number nine" onclick="push('9')">9</button>
+        </div>
+        <button class="bbotton zero" onclick="push('0')">0</button>
+
+    </div>
+    <div class="actionblock">
+        <div class="actionrow">
+            <button class="number plus" onclick="calculation('+')">+</button>
+            <button class="number minus" onclick="calculation('-')">-</button>
+        </div>
+        <div class="actionrow">
+            <button class="number multiply"onclick="calculation('*')">*</button>
+            <button class="number share" onclick="calculation('/')">/</button>
+        </div>
+        <div class="actionrowe">
+            <button class="abbotton delete" onclick="del()">C</button>
+            <button class="abbotton equal" onclick="calculation('=')">=</button>
+        </div>
+
+    </div>
+    
+</div>
+<!--<hr>
+    <div class="name">By Dre</div>
+</div>-->
+
+<script src="js/calc.js"></script>
+</body>
+</html>
